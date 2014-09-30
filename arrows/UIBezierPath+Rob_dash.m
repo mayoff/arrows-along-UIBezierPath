@@ -3,7 +3,7 @@
 //  arrows
 //
 //  Created by Rob Mayoff on 9/30/14.
-//  Copyright (c) 2014 Rob Mayoff. All rights reserved.
+//  Copyright (c) 2014 Rob Mayoff. Public domain.
 //
 
 #import "UIBezierPath+Rob_dash.h"
