@@ -11,20 +11,6 @@
 #import "UIBezierPath+Rob_forEach.h"
 #import <tgmath.h>
 
-//static CGFloat distanceBetwixtPoints(CGPoint a, CGPoint b) {
-//    return hypot(a.x - b.x, a.y - b.y);
-//}
-//
-//static void addPointToArray(CGPoint point, NSMutableArray *points) {
-//    if (points.count > 0) {
-//        CGPoint lastPoint = [points.lastObject CGPointValue];
-//        if (distanceBetwixtPoints(point, lastPoint) < 0.1) {
-//            return;
-//        }
-//    }
-//    [points addObject:[NSValue valueWithCGPoint:point]];
-//}
-
 static CGVector vectorFromPointToPoint(CGPoint tail, CGPoint head) {
     CGFloat length = hypot(head.x - tail.x, head.y - tail.y);
     return CGVectorMake((head.x - tail.x) / length, (head.y - tail.y) / length);

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -12,11 +13,36 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="redraw" id="kh9-bI-dsS" customClass="MyView">
+                    <view key="view" contentMode="redraw" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="1" maxValue="150" translatesAutoresizingMaskIntoConstraints="NO" id="LSU-BV-gXK">
+                                <rect key="frame" x="14" y="562" width="572" height="31"/>
+                                <connections>
+                                    <action selector="updateArrowView" destination="vXZ-lx-hvc" eventType="valueChanged" id="4wP-Ig-7WG"/>
+                                </connections>
+                            </slider>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dwm-Jh-pBX" customClass="ArrowView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="562"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LSU-BV-gXK" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="F8A-Fj-b7c"/>
+                            <constraint firstItem="LSU-BV-gXK" firstAttribute="top" secondItem="Dwm-Jh-pBX" secondAttribute="bottom" id="XNk-L6-fS4"/>
+                            <constraint firstItem="LSU-BV-gXK" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="b8g-Ay-Aev"/>
+                            <constraint firstAttribute="trailing" secondItem="Dwm-Jh-pBX" secondAttribute="trailing" id="c36-yg-lE5"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="LSU-BV-gXK" secondAttribute="bottom" constant="8" symbolic="YES" id="e6T-2E-8yC"/>
+                            <constraint firstItem="Dwm-Jh-pBX" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="fIQ-4j-YTY"/>
+                            <constraint firstItem="Dwm-Jh-pBX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="tOB-9b-84C"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="arrowView" destination="Dwm-Jh-pBX" id="wdl-ju-MAS"/>
+                        <outlet property="slider" destination="LSU-BV-gXK" id="6mq-JA-WAS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,22 +1,27 @@
 //
-//  MyView.m
+//  ArrowView.m
 //  arrows
 //
 //  Created by Rob Mayoff on 9/30/14.
 //  Copyright (c) 2014 Rob Mayoff. All rights reserved.
 //
 
-#import "MyView.h"
+#import "ArrowView.h"
 #import "UIBezierPath+Rob_figureEight.h"
 #import "UIBezierPath+Rob_points.h"
 
-@implementation MyView
+@implementation ArrowView
+
+- (void)setInterval:(CGFloat)interval {
+    _interval = interval;
+    [self setNeedsDisplay];
+}
 
 - (void)drawRect:(CGRect)rect {
     UIImage *arrow = [UIImage imageNamed:@"right233.png"];
     UIBezierPath *path = [UIBezierPath Rob_figureEightInRect:CGRectInset(self.bounds, 40, 40)];
 //    [path stroke];
-    [path Rob_forEachPointAtInterval:60 perform:^(CGPoint point, CGVector vector) {
+    [path Rob_forEachPointAtInterval:self.interval perform:^(CGPoint point, CGVector vector) {
         CGContextRef gc = UIGraphicsGetCurrentContext();
         CGContextSaveGState(gc); {
             CGContextTranslateCTM(gc, point.x, point.y);

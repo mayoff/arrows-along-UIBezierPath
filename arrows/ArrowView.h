@@ -1,5 +1,5 @@
 //
-//  MyView.h
+//  ArrowView.h
 //  arrows
 //
 //  Created by Rob Mayoff on 9/30/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyView : UIView
+@interface ArrowView : UIView
+
+@property (nonatomic) CGFloat interval;
 
 @end
