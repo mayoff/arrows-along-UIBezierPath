@@ -1,0 +1,5 @@
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+DerivedData
+.idea

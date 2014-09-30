@@ -14,6 +14,14 @@
 		3137BEC019DB411D00A09484 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3137BEBF19DB411D00A09484 /* Images.xcassets */; };
 		3137BEC319DB411D00A09484 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3137BEC119DB411D00A09484 /* LaunchScreen.xib */; };
 		3137BECF19DB411D00A09484 /* arrowsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137BECE19DB411D00A09484 /* arrowsTests.m */; };
+		3137BEDA19DB41FC00A09484 /* UIBezierPath+Rob_figureEight.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137BED919DB41FC00A09484 /* UIBezierPath+Rob_figureEight.m */; };
+		3137BEE019DB535000A09484 /* UIBezierPath+Rob_forEach.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137BEDF19DB535000A09484 /* UIBezierPath+Rob_forEach.m */; };
+		3137BEE319DB55B900A09484 /* UIBezierPath+Rob_dash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137BEE219DB55B900A09484 /* UIBezierPath+Rob_dash.m */; };
+		3137BEE619DB570600A09484 /* UIBezierPath+Rob_arrowized.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137BEE519DB570600A09484 /* UIBezierPath+Rob_arrowized.m */; };
+		3137BEE919DB641500A09484 /* UIBezierPath+Rob_points.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137BEE819DB641500A09484 /* UIBezierPath+Rob_points.m */; };
+		3137BEEC19DB65EA00A09484 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137BEEB19DB65EA00A09484 /* MyView.m */; };
+		3137BEEE19DB668400A09484 /* right233.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137BEED19DB668400A09484 /* right233.png */; };
+		3137BEF119DB669500A09484 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3137BEEF19DB669500A09484 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,20 @@
 		3137BEC819DB411D00A09484 /* arrowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arrowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3137BECD19DB411D00A09484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3137BECE19DB411D00A09484 /* arrowsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arrowsTests.m; sourceTree = "<group>"; };
+		3137BED819DB41FC00A09484 /* UIBezierPath+Rob_figureEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Rob_figureEight.h"; sourceTree = "<group>"; };
+		3137BED919DB41FC00A09484 /* UIBezierPath+Rob_figureEight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Rob_figureEight.m"; sourceTree = "<group>"; };
+		3137BEDE19DB535000A09484 /* UIBezierPath+Rob_forEach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Rob_forEach.h"; sourceTree = "<group>"; };
+		3137BEDF19DB535000A09484 /* UIBezierPath+Rob_forEach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Rob_forEach.m"; sourceTree = "<group>"; };
+		3137BEE119DB55B900A09484 /* UIBezierPath+Rob_dash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Rob_dash.h"; sourceTree = "<group>"; };
+		3137BEE219DB55B900A09484 /* UIBezierPath+Rob_dash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Rob_dash.m"; sourceTree = "<group>"; };
+		3137BEE419DB570600A09484 /* UIBezierPath+Rob_arrowized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Rob_arrowized.h"; sourceTree = "<group>"; };
+		3137BEE519DB570600A09484 /* UIBezierPath+Rob_arrowized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Rob_arrowized.m"; sourceTree = "<group>"; };
+		3137BEE719DB641500A09484 /* UIBezierPath+Rob_points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Rob_points.h"; sourceTree = "<group>"; };
+		3137BEE819DB641500A09484 /* UIBezierPath+Rob_points.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Rob_points.m"; sourceTree = "<group>"; };
+		3137BEEA19DB65EA00A09484 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		3137BEEB19DB65EA00A09484 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		3137BEED19DB668400A09484 /* right233.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right233.png; sourceTree = "<group>"; };
+		3137BEEF19DB669500A09484 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,7 @@
 		3137BEA619DB411D00A09484 = {
 			isa = PBXGroup;
 			children = (
+				3137BEEF19DB669500A09484 /* README.md */,
 				3137BEB119DB411D00A09484 /* arrows */,
 				3137BECB19DB411D00A09484 /* arrowsTests */,
 				3137BEB019DB411D00A09484 /* Products */,
@@ -81,13 +104,26 @@
 		3137BEB119DB411D00A09484 /* arrows */ = {
 			isa = PBXGroup;
 			children = (
+				3137BEED19DB668400A09484 /* right233.png */,
 				3137BEB619DB411D00A09484 /* AppDelegate.h */,
 				3137BEB719DB411D00A09484 /* AppDelegate.m */,
 				3137BEB919DB411D00A09484 /* ViewController.h */,
 				3137BEBA19DB411D00A09484 /* ViewController.m */,
+				3137BEEA19DB65EA00A09484 /* MyView.h */,
+				3137BEEB19DB65EA00A09484 /* MyView.m */,
 				3137BEBC19DB411D00A09484 /* Main.storyboard */,
 				3137BEBF19DB411D00A09484 /* Images.xcassets */,
 				3137BEC119DB411D00A09484 /* LaunchScreen.xib */,
+				3137BED819DB41FC00A09484 /* UIBezierPath+Rob_figureEight.h */,
+				3137BEE719DB641500A09484 /* UIBezierPath+Rob_points.h */,
+				3137BEE819DB641500A09484 /* UIBezierPath+Rob_points.m */,
+				3137BED919DB41FC00A09484 /* UIBezierPath+Rob_figureEight.m */,
+				3137BEDE19DB535000A09484 /* UIBezierPath+Rob_forEach.h */,
+				3137BEDF19DB535000A09484 /* UIBezierPath+Rob_forEach.m */,
+				3137BEE119DB55B900A09484 /* UIBezierPath+Rob_dash.h */,
+				3137BEE219DB55B900A09484 /* UIBezierPath+Rob_dash.m */,
+				3137BEE419DB570600A09484 /* UIBezierPath+Rob_arrowized.h */,
+				3137BEE519DB570600A09484 /* UIBezierPath+Rob_arrowized.m */,
 				3137BEB219DB411D00A09484 /* Supporting Files */,
 			);
 			path = arrows;
@@ -200,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3137BEBE19DB411D00A09484 /* Main.storyboard in Resources */,
+				3137BEEE19DB668400A09484 /* right233.png in Resources */,
 				3137BEC319DB411D00A09484 /* LaunchScreen.xib in Resources */,
 				3137BEC019DB411D00A09484 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3137BEE019DB535000A09484 /* UIBezierPath+Rob_forEach.m in Sources */,
 				3137BEBB19DB411D00A09484 /* ViewController.m in Sources */,
+				3137BEF119DB669500A09484 /* README.md in Sources */,
+				3137BEEC19DB65EA00A09484 /* MyView.m in Sources */,
+				3137BEE919DB641500A09484 /* UIBezierPath+Rob_points.m in Sources */,
+				3137BEDA19DB41FC00A09484 /* UIBezierPath+Rob_figureEight.m in Sources */,
+				3137BEE619DB570600A09484 /* UIBezierPath+Rob_arrowized.m in Sources */,
+				3137BEE319DB55B900A09484 /* UIBezierPath+Rob_dash.m in Sources */,
 				3137BEB819DB411D00A09484 /* AppDelegate.m in Sources */,
 				3137BEB519DB411D00A09484 /* main.m in Sources */,
 			);
